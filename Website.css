@@ -77,6 +77,11 @@ footer li img {
 	font-weight: normal;
 	font-size: 12px;	
     color: #000000;
+    
+}
+
+.tagline a:hover {
+    text-decoration: none;
 }
 
 header p a:link {
@@ -109,10 +114,18 @@ body {
     font-family: "HelveticaNeueLT Std Lt";
 }
 
+.projectname {
+    color:darkgrey;
+    font-size: 16px;
+    align-content: center;
+    padding: 1vm 1vm 1vm 1vm;
+    
+}
+
 .jumbotron {
     background-color: white;
     font-size: 4.3vw;
-    line-height: 5.2vw;
+    line-height: 6.5vw;
     margin: 0px 0px 0px 15px;
     padding: 0px 0px 0px 0px;
 }
@@ -223,7 +236,7 @@ author {
 
 .port {
     max-height: 200px;
-    height: 19vw;
+    height: 20vw;
     margin: 10px;
     align-content: center;
 }
