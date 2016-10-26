@@ -3,11 +3,22 @@ html, body {
     overflow-x: hidden;
 }
 
+p {
+    font-size: 13pt;
+    padding-bottom: 5px;
+}
+
 /* ------------------ Header & Footer ------------------ */
 
 
+.aboutmelarge {
+    font-size: 24pt;
+    color: #D80000;
+    font-family: "HelveticaNeueLt Med";
+}
+
 .headfont {
-    font:
+ 
 }
 
 .headerborder {
@@ -75,9 +86,14 @@ footer li img {
 
 .tagline {
 	font-weight: normal;
-	font-size: 12px;	
+	font-size: 14px;	
     color: #000000;
-    
+    line-height: 13pt;    
+}
+
+.copyright {
+    font-size: 9pt;
+    line-height: 12pt;
 }
 
 .tagline a:hover {
@@ -137,7 +153,8 @@ body {
 }
 
 .navbuttons {
-    line-height: 40px;   
+    line-height: 40px; 
+    font-size: 11pt;
 }
 
 h3 {
@@ -209,7 +226,7 @@ h5 {
 }
 
 .maincontent2 {
-    padding-top: 97px;
+    padding-top: 118px;
     padding-left: 250px;
 }
 
