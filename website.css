@@ -45,10 +45,13 @@ hr.smallbreak {
 }
 
 .nav {
-  padding-top: 100px;
+  padding-top: 160px;
   position: fixed;
   max-width: 200px;
+}
 
+.nav a:hover {
+    text-decoration: none;
 }
 
 
@@ -77,38 +80,47 @@ footer li img {
 }
 
 .tagline {
-  font-weight: 200;
-  font-size: 14px;
-  color: #000000;
-  line-height: 13pt;
+    font-weight: 200;
+    font-size: 14px;
+    color: #000000;
+    line-height: 13pt;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.tagline a {
+  display: block;
+    text-decoration: none;
+}
+
+.tagline a:hover {
+    text-decoration:none;
 }
 
 .copyright {
   font-size: 9pt;
   line-height: 12pt;
+    padding-top: 5px;
 }
 
-.tagline a:hover {
-  text-decoration: none;
-}
 
-header p a:link {
+.header p a:link {
   color: #666;
   text-decoration: none;
 }
 
-header p a:visited {
+.header p a:visited {
   color: #666;
   text-decoration: none;
 
 }
 
-header p a:hover {
+.header p a:hover {
   color: #DB0000;
   text-decoration: none;
 }
 
-header p a:active {
+.header p a:active {
   color: #DB0000;
   text-decoration: none;
 }
@@ -160,13 +172,19 @@ header p a:active {
 }
 
 .navbuttons {
-  line-height: 40px;
-  font-size: 11pt;
-  padding-bottom: 15px;
+    font-weight: 300;
+    line-height: 35px;
+    font-size: 11pt;
+    padding-bottom: 15px;
 }
 
 .navbuttons a {
   display: block;
+}
+
+.navbuttons a:hover {
+    text-decoration:none;
+    color: #d80000;
 }
 
 h3 {
@@ -246,11 +264,15 @@ h5 {
 }
 
 .maincontent {
-  padding-top: 102px;
+  padding-top: 110px;
   padding-left: 170px;
 }
 
 .maincontent2 {
+  padding-top: 138px;
+  padding-left: 250px;
+}
+.maincontent3 {
   padding-top: 115px;
   padding-left: 250px;
 }
@@ -332,17 +354,18 @@ li {
 
 /* ------------------ Buttons ------------------ */
 
+
+
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+
   text-shadow: none;
   background-color: #ffffff;
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
+        color: #d80000;
 }
 
 .btn-secondary {
@@ -386,8 +409,8 @@ li {
   font-size: 40px;
   line-height: 32px;
   text-align: left;
-  text-transform:uppercase ;
-  text-decoration:none ;
+  text-transform: uppercase;
+  text-decoration: none;
   display: inline-block;
   transform : scale(1,1.5);
     -webkit-transform:scale(1,.87); /* Safari and Chrome */
