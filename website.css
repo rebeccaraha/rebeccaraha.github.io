@@ -235,7 +235,8 @@ table.work tr td:second-child {
 }
 
 h4 {
-  font-size: 24px;
+  padding-top: 30px;
+    font-size: 24px;
   font-weight: 500;
 }
 
@@ -276,8 +277,17 @@ author {
   padding: 0 15px;
 }
 
-.resumebord {
-    border-right: 1px;
+.border-between > [class*='col-']:before {
+ background: #e3e3e3;
+ bottom: 0;
+ content: " ";
+ left: 0;
+ position: absolute;
+ width: 1px;
+ top: 0;
+}
+.border-between > [class*='col-']:first-child:before {
+ display: none;
 }
 
 .date {
@@ -298,7 +308,6 @@ author {
     border-bottom: 1px solid #cbcbcb;
     line-height: 18pt;
     margin-left: 20px;
-}   
 }
 
 .company {
