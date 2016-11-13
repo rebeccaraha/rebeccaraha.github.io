@@ -48,6 +48,7 @@ hr.smallbreak {
   padding-top: 100px;
   position: fixed;
   max-width: 200px;
+
 }
 
 
@@ -284,8 +285,8 @@ author {
 
 .position {
   font-size: 18px;
-  border-bottom: 1px;
-  border-bottom-color: #D80000;
+  border-bottom: 1px solid #d80000;
+    line-height: 20pt;
 }
 
 .company {
