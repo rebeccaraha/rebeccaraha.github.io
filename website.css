@@ -47,7 +47,7 @@ hr.smallbreak {
 .nav {
   padding-top: 160px;
   position: fixed;
-  max-width: 200px;
+  width: 200px;
 }
 
 .nav a:hover {
@@ -273,8 +273,8 @@ h5 {
   padding-left: 250px;
 }
 .maincontent3 {
-  padding-top: 115px;
-  padding-left: 250px;
+  padding-top: 185px;
+  padding-left: 240px;
 }
 
 .skilltable {
