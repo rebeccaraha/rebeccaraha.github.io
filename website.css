@@ -173,7 +173,7 @@ footer li img {
 
 .navbuttons {
     font-weight: 300;
-    line-height: 35px;
+    line-height: 40px;
     font-size: 11pt;
     padding-bottom: 15px;
 }
@@ -264,16 +264,16 @@ h5 {
 }
 
 .maincontent {
-  padding-top: 110px;
+  padding-top: 175px;
   padding-left: 170px;
 }
 
 .maincontent2 {
-  padding-top: 138px;
+  padding-top: 165px;
   padding-left: 250px;
 }
 .maincontent3 {
-  padding-top: 185px;
+  padding-top: 176px;
   padding-left: 240px;
 }
 
@@ -300,13 +300,13 @@ author {
 }
 
 .border-between > [class*='col-']:before {
- background: #e3e3e3;
  bottom: 0;
  content: " ";
  left: 0;
  position: absolute;
  width: 1px;
  top: 0;
+    border-right: 1px solid #cbcbcb;
 }
 .border-between > [class*='col-']:first-child:before {
  display: none;
