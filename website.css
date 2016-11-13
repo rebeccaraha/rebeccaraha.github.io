@@ -276,9 +276,12 @@ author {
   padding: 0 15px;
 }
 
+.resumebord {
+    border-right: 1px;
+}
+
 .date {
   color: #a9a9a9;
-  text-align: right;
   font-size: 16px;
   /*line-height: 20px;*/
 }
@@ -289,10 +292,24 @@ author {
     line-height: 20pt;
 }
 
+.subposition
+{
+    font-size: 15px;
+    border-bottom: 1px solid #cbcbcb;
+    line-height: 18pt;
+    margin-left: 20px;
+}   
+}
+
 .company {
   font-size: 16px;
   line-height: 20px;
   color: #808080;
+}
+
+.location
+{
+    
 }
 
 .jobinfo ul li {
