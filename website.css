@@ -20,8 +20,12 @@ p {
 
 .aboutmelarge {
   font-size: 24pt;
-  color: #D80000;
   font-weight: 500;
+  border-bottom: 1px solid #d80000;
+}
+
+.aboutmepara {
+    font-size: 14pt;
 }
 
 .headfont {
@@ -254,13 +258,13 @@ table.work tr td:second-child {
 }
 
 h4 {
-  padding-top: 30px;
     font-size: 24px;
   font-weight: 500;
+    line-height: 20px;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 30px;
   font-weight: 400;
 }
 
@@ -276,6 +280,11 @@ h5 {
 .maincontent3 {
   padding-top: 176px;
   padding-left: 240px;
+}
+
+.maincontent4 {
+    padding-top: 30px;
+    padding-left: 240px;
 }
 
 .skilltable {
@@ -307,6 +316,7 @@ author {
  width: 1px;
  top: 0;
     border-right: 1px solid #cbcbcb;
+    font-weight: 500;
 }
 .border-between > [class*='col-']:first-child:before {
  display: none;
@@ -315,13 +325,15 @@ author {
 .date {
   color: #a9a9a9;
   font-size: 16px;
-  /*line-height: 20px;*/
+    padding-bottom: 1pt;
 }
 
 .position {
   font-size: 18px;
   border-bottom: 1px solid #d80000;
     line-height: 20pt;
+    padding-bottom: 1pt;
+    font-weight: 300;
 }
 
 .subposition
@@ -333,14 +345,24 @@ author {
 }
 
 .company {
-  font-size: 16px;
-  line-height: 20px;
-  color: #808080;
+    font-size: 16px;
+    line-height: 30px;
+    color: #808080;
+    padding-bottom: 1pt;
 }
 
 .location
 {
     
+}
+
+.jobinfo
+{
+    padding-left: 30px;
+}
+
+.joblist {
+    padding-left: 70px;
 }
 
 .jobinfo ul li {
@@ -351,6 +373,13 @@ li {
   list-style-type: circle;
 }
 
+.jobspacer {
+    padding-top: 20px;
+}
+
+.sectionspacer {
+    padding-top: 50px;
+}
 
 /* ------------------ Buttons ------------------ */
 
