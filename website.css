@@ -309,14 +309,13 @@ author {
 }
 
 .border-between > [class*='col-']:before {
+ background: #e3e3e3;
  bottom: 0;
  content: " ";
  left: 0;
  position: absolute;
  width: 1px;
  top: 0;
-    border-right: 1px solid #cbcbcb;
-    font-weight: 500;
 }
 .border-between > [class*='col-']:first-child:before {
  display: none;
@@ -324,7 +323,7 @@ author {
 
 .date {
   color: #a9a9a9;
-  font-size: 16px;
+  font-size: 14px;
     padding-bottom: 1pt;
 }
 
