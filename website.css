@@ -111,7 +111,7 @@ footer li img {
 
 
 .header p a:link {
-  color: #666;
+ 
   text-decoration: none;
 }
 
@@ -164,17 +164,12 @@ footer li img {
 }
 
 .jumbotron {
-  background-color: white;
   font-size: 4vw;
   line-height: 6.4vw;
-  margin: 0px 0px 0px 15px;
-  padding: 0px 0px 0px 0px;
 }
 
 .jumbofont {
   line-height: 400px;
-  margin: 0px 0px 0px 0px;
-  padding:0px 0px 0px 0px;
 }
 
 .navbuttons {
@@ -275,7 +270,7 @@ h5 {
 .maincontent3,
 .maincontent4 {
   padding-top: 170px;
-  padding-left: 170px;
+  padding-left: 220px;
 }
 
 /*.maincontent2 {
