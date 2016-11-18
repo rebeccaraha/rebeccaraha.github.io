@@ -50,6 +50,8 @@ hr.smallbreak {
 
 .nav {
   padding-top: 160px;
+    padding-right: 0px;
+    padding-left: 0px;
   position: fixed;
   width: 200px;
 }
@@ -268,12 +270,15 @@ h5 {
   font-weight: 400;
 }
 
-.maincontent {
+.maincontent,
+.maincontent2,
+.maincontent3,
+.maincontent4 {
   padding-top: 170px;
   padding-left: 170px;
 }
 
-.maincontent2 {
+/*.maincontent2 {
   padding-top: 165px;
   padding-left: 250px;
 }
@@ -286,6 +291,7 @@ h5 {
     padding-top: 30px;
     padding-left: 240px;
 }
+*/
 
 .skilltable {
   width: 60vw;
