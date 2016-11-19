@@ -256,12 +256,11 @@ table.work tr td:second-child {
 
 h4 {
     font-size: 24px;
-  font-weight: 500;
-    line-height: 20px;
+    font-weight: 500;
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -289,6 +288,7 @@ author {
 .port-pic {
   width: 100%;
   text-align: center;
+    padding: 10px 10px 10px 10px;
 }
 
 .work {
@@ -348,11 +348,11 @@ author {
 
 .jobinfo
 {
-    padding-left: 30px;
+
 }
 
 .joblist {
-    padding-left: 70px;
+    padding-left: 30px;
 }
 
 .jobinfo ul li {
@@ -419,7 +419,6 @@ li {
 .redfont {
   color: #DB0000;
   font-weight: 500;
-
 }
 
 .headername {
