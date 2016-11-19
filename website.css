@@ -264,6 +264,16 @@ h5 {
   font-weight: 400;
 }
 
+h9 {
+    font-size: 10pt;
+    line-height: 13pt;
+    color: #a9a9a9;
+}
+
+.bold {
+    font-weight: 500;
+}
+
 .maincontent,
 .maincontent2,
 .maincontent3,
