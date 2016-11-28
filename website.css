@@ -94,16 +94,11 @@ footer li img {
     text-decoration: none;
 }
 
+
 body a:hover {
     text-decoration: none;
     color: #d80000;   
 }
-
-body a {
-    text-decoration: none;
-    color: #d80000;   
-}
-
 
 
 .tagline a {
@@ -114,34 +109,6 @@ body a {
 .tagline a:hover {
     text-decoration:none;
 }
-
-.projectname a {
-  display: block;
-    text-decoration: none;
-}
-
-.projectname a:hover {
-    text-decoration:none;
-}
-
-.projectnametext a {
-  display: block;
-    text-decoration: none;
-}
-
-.projectnametext a:hover {
-    text-decoration:none;
-}
-
-.port a {
-  display: block;
-    text-decoration: none;
-}
-
-.port a:hover {
-    text-decoration:none;
-}
-
 
 
 .copyright {
@@ -162,11 +129,6 @@ body a {
 
 }
 
-.header p a:hover {
-  color: #DB0000;
-  text-decoration: none;
-}
-
 .header p a:active {
   color: #DB0000;
   text-decoration: none;
@@ -185,12 +147,21 @@ body a {
     font-size: 16px;
     text-align: center;
     padding-bottom: 10px;
+    font-weight: 400;
 }
 
 
 .projectname img {
   width: 100%;
   padding-bottom: 5px;
+}
+
+.projectname:hover {
+    background: #f8f8f8;
+   color: #d80000;
+}
+.projectnametext:hover {
+    color: #d80000;
 }
 
 .portfolio .row {
@@ -311,10 +282,6 @@ h9 {
     line-height: 16pt;
     color: #a9a9a9;
     border-bottom: 10px;
-}
-
-a {
-    text-decoration: none;
 }
 
 .bodyunder {
@@ -451,7 +418,7 @@ li {
   background-color: #ffffff;
 }
 
-.btn.btn-primary:hover {
+.btn-primary:hover {
         color: #d80000;
 }
 
