@@ -94,6 +94,18 @@ footer li img {
     text-decoration: none;
 }
 
+body a:hover {
+    text-decoration: none;
+    color: #d80000;   
+}
+
+body a {
+    text-decoration: none;
+    color: #d80000;   
+}
+
+
+
 .tagline a {
   display: block;
     text-decoration: none;
@@ -102,6 +114,35 @@ footer li img {
 .tagline a:hover {
     text-decoration:none;
 }
+
+.projectname a {
+  display: block;
+    text-decoration: none;
+}
+
+.projectname a:hover {
+    text-decoration:none;
+}
+
+.projectnametext a {
+  display: block;
+    text-decoration: none;
+}
+
+.projectnametext a:hover {
+    text-decoration:none;
+}
+
+.port a {
+  display: block;
+    text-decoration: none;
+}
+
+.port a:hover {
+    text-decoration:none;
+}
+
+
 
 .copyright {
   font-size: 9pt;
@@ -144,16 +185,6 @@ footer li img {
     font-size: 16px;
     text-align: center;
     padding-bottom: 10px;
-}
-
-.projectnametext {
-  text-decoration: none;
-}
-
-
-.projectnametext a:hover {
-   color: #DB0000;
-  text-decoration: none;
 }
 
 
