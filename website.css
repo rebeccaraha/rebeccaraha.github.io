@@ -150,6 +150,10 @@ body a:hover {
     font-weight: 400;
 }
 
+.portable
+{
+    padding-left: -30px;
+}
 
 .projectname img {
   width: 100%;
