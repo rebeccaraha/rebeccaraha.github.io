@@ -330,7 +330,7 @@ author {
 .processes {
     font-size: 20px;
     line-height: 20px;
-    font-weight: 600;
+    font-weight: 400;
     color: darkgrey;
     text-decoration: line-through;
 }
@@ -342,7 +342,7 @@ author {
     }
 
 .borderline { 
-margin-top: 20px;
+margin-top: 15px;
     border-bottom: 0.5px solid lightgrey; 
     margin-bottom: 20px;
 }
