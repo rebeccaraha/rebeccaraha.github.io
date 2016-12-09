@@ -337,13 +337,15 @@ author {
 
 .headshotpic {
 width: 100%;
-    max-height: 300px;
+    max-width: 108px;
+    max-height: 327px;
 }
 
 .processesa {
     color: #d80000;
     font-weight: 600;
     line-height: 20px;
+    align-content: center;
     }
 
 .borderline { 
