@@ -324,6 +324,19 @@ author {
     padding: 10px 10px 10px 10px;
 }
 
+.processes {
+     font-size: 16px;
+    line-height: 10px;  
+    font-weight: 400;
+}
+
+.processesa {
+     font-size: 16px;
+    line-height: 10px;  
+    color: #d80000;
+    font-weight: 400;
+}
+
 .port-pic {
   width: 100%;
   text-align: center;
