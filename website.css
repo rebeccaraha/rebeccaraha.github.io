@@ -324,18 +324,22 @@ author {
     padding: 10px 10px 10px 10px;
 }
 
+.smallsp { 
+    height: 10px;
+}
 .processes {
-     font-size: 16px;
-    line-height: 10px;  
-    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 600;
+    color: darkgrey;
+    text-decoration: line-through;
 }
 
 .processesa {
-     font-size: 16px;
-    line-height: 10px;  
     color: #d80000;
-    font-weight: 400;
-}
+    font-weight: 600;
+    line-height: 10px;
+    }
 
 .port-pic {
   width: 100%;
