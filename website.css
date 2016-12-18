@@ -357,7 +357,6 @@ margin-top: 15px;
 .port-pic {
   width: 100%;
   text-align: center;
-    margin: 2px 2px 2px 2px;
     padding: 2px 2px 2px 2px;
 }
 
@@ -409,6 +408,10 @@ margin-top: 15px;
     line-height: 30px;
     color: #808080;
     padding-bottom: 1pt;
+}
+
+.special {
+    font-weight: 500;
 }
 
 .location
