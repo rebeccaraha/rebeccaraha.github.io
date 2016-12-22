@@ -360,6 +360,10 @@ margin-top: 15px;
     padding: 2px 2px 2px 2px;
 }
 
+.mb-0 {
+    color: #d80000;
+}
+
 .work {
   padding: 15px 0;
 }
