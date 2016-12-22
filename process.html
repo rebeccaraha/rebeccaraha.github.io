@@ -9,6 +9,9 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,500,700" rel="stylesheet">
   <!-- fonts.com Helvetica Neue font -->
   <script type="text/javascript" src="//fast.fonts.net/jsapi/f774b517-185a-49fe-a289-c6224f5d1704.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
   <section class="container">
@@ -42,18 +45,10 @@
       <p>No matter how you describe it, I believe in iterative human-centered design processes - embracing failure and constantly pursuing improvement.</p>
         <p>I bring human-centered processes and techiques everywhere I go. Click each heading below to see some of my favorite tools!<br>
           <br>
-            
-             <h2>CSS Expand/Collapse Section</h2>
-  <input id="toggle" type="checkbox" checked>
-  <label for="toggle">Hidden Kitten</label>
-  <div id="expand">
-    <section>
-      <p>mew</p>
-        
-            
-            <div class="faq">
-                <a href="#question1"><div class="dropdown">Identify, Immerse, Reframe</div></a>   
-                <div id="question1"><div class="row">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Identify, Immerse, Reframe</button>
+  <div id="demo" class="collapse">
+     
+               <div class="row">
              <div class="col-sm-12 col-md-6">
                 <h5>Bodystorming</h5>
                  <img src="images/process/bodystorming.jpg" class="port-pic">
@@ -99,12 +94,11 @@
             <p>An example of a co-design session I developed - examining the current and desired healthcare journey0 can be seen here! </p>
         </div>
                 </div>
-                
-                
-                </div><br>
-                   <a href="#question1"><div class="dropdown">Ideate, Build, Test</div></a>   
-                <div id="question1">
-                    
+  </div>
+
+        
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Ideate, Build, Test</button>
+  <div id="demo2" class="collapse">                    
                     <div class="row">
              <div class="col-sm-12 col-md-6">
                       <h5>Mockuptionary</h5>
@@ -125,7 +119,6 @@
         </div>
                 </div>
                 </div>
-        </div>
       </div>
 
    

@@ -469,6 +469,22 @@ li {
   color: #ffffff;
 }
 
+.btn-info {
+    border-radius: 2px;
+  border: 1px solid #f6f6f6;
+color: black;
+  text-shadow: none;
+  background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-info:hover {
+        color: #d80000;
+    background-color: #ffffff;
+     border: 1px solid #f6f6f6;
+}
+
 
 /* ----------------- Coloumns ---------------- */
 
