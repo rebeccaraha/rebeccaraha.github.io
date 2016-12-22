@@ -147,7 +147,7 @@ body a:hover {
     font-size: 16px;
     text-align: center;
     padding-bottom: 10px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .portable
@@ -161,7 +161,6 @@ body a:hover {
 }
 
 .projectname:hover {
-    background: #f8f8f8;
    color: #d80000;
 }
 .projectnametext:hover {
