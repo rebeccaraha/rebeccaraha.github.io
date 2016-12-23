@@ -161,7 +161,7 @@ body a:hover {
 
 .projectname img {
   width: 100%;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .projectname:hover {
@@ -325,6 +325,7 @@ author {
   width: 100%;
   text-align: center;
      border: 2px solid #f6f6f6;
+
 }
 
 .smallsp { 
