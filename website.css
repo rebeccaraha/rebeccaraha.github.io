@@ -498,6 +498,9 @@ color: black;
      border: 1px solid #f6f6f6;
 }
 
+.btn-info:::selection {
+  background: #ffffff; /* WebKit/Blink Browsers */
+}
 
 /* ----------------- Coloumns ---------------- */
 
