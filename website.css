@@ -350,7 +350,16 @@ width: 100%;
     font-weight: 600;
     line-height: 20px;
     align-content: center;
-    }
+}
+
+
+
+.processesb {
+    color: #949494;
+    font-weight: 600;
+    line-height: 20px;
+    align-content: center;
+}
 
 .borderline { 
 margin-top: 15px;
