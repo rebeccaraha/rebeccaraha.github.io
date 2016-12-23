@@ -80,6 +80,11 @@ footer ul {
   list-style: none;
 }
 
+p ul li
+{
+  font-size: 16px;   
+}
+
 footer li img {
   width: 32px;
   height: 32px;
@@ -356,8 +361,7 @@ margin-top: 15px;
 .port-pic {
   width: 100%;
   text-align: center;
-    padding: 2px 2px 2px 2px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .dropdown {
