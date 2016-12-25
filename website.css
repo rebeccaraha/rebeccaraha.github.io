@@ -456,6 +456,11 @@ margin-top: 15px;
 
 li {
   list-style-type: circle;
+    font-size: 13pt;
+}
+
+ul {
+    font-size: 13pt;
 }
 
 .jobspacer {
