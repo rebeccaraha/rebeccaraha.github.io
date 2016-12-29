@@ -394,6 +394,14 @@ margin-top: 15px;
     border: 2px solid #f6f6f6;
 }
 
+
+.resume-outline {
+  max-width: 500px;
+  text-align: center;
+    margin-bottom: 10px;
+    border: 2px solid #f6f6f6;
+}
+
 .dropdown {
  font-size: 20px;
 }
