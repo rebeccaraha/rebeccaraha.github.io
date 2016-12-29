@@ -230,8 +230,6 @@ h3 {
 
 h6 {
     font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     font-weight: 400;
 }
 
@@ -294,6 +292,7 @@ h4 {
 }
 
 h5 {
+    padding-top: 12pt;
   font-size: 20px;
   font-weight: 500;
     color: #d80000;
@@ -486,6 +485,10 @@ ul {
 
 .sectionspacer {
     padding-top: 50px;
+}
+
+.presents {
+    max-width: 300px;
 }
 
 /* ------------------ Buttons ------------------ */
