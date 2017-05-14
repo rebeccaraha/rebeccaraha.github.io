@@ -251,6 +251,7 @@ table tr td {
 table th {
   padding-left: 10px;
   text-align: left;
+    padding-right: 10px;
 }
 
 .work
