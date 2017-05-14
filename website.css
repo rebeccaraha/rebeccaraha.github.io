@@ -248,6 +248,11 @@ table tr td {
   text-align: left;
 }
 
+table th {
+  padding-left: 10px;
+  text-align: left;
+}
+
 .work
 {
   width: 60vw;
